@@ -1,0 +1,27 @@
+File Handling Notes
+
+i) A file is pointed by a structure pointer declared by using FILE
+      > FILE *fp;
+ii) File must be opened before performing any operations by fopen() which searches for the file and loads the file from the disk in buffer memory, and sets up a character pointer that points to the first character of the buffer
+      > fp = fopen("filename.c","r/w")
+iii) After the task has been completed in the file then the file needs to be closed by fclose();On closing the file the buffer associated with the file is removed from the memory.
+      > fclose(fp)
+iv) To read a character from file, at first declare a character then use fgetc to read from file   
+      > ch=fgetc(fp)
+v) THE END OF FILE IS known as EOF(END OF FILE)
+      so to read a character till the end we need to use 
+      while(1){
+            ch=fgetc(fp);
+            if(ch==EOF)
+                  break;
+      }
+6)to check whether the file is opened or  not 
+      if(fp==NULL){
+            puts("Cannot open source file")
+      }
+7) File opening mode:
+      r-read only
+      w- write only
+      a-adding new contents to the end of file
+      Both r+ and w+ can read and write to a file. However, r+ doesn't delete the content of the file and doesn't create a new file if such file doesn't exist, whereas w+ deletes the content of the file and creates it if it doesn't exist.
+      https://stackoverflow.com/a/58419418/13269273
