@@ -1,9 +1,10 @@
 //finding volume of sphere
 #include <stdio.h>
-
+#include<conio.h>
 
 int main()
-{
+{   
+    clrscr();
     float r, Vol;
     printf("Enter radius of sphere");
     scanf("%f", &r);
