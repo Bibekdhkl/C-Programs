@@ -5,6 +5,7 @@ This repo is the collection of C programming problems that I practiced on differ
 <h2>Hacktoberfest 2021</h2>
 <p> Want to complete four PRs for Hacktoberbest-2021. Send a PR of your C Program.</p>
 
+``` Please Add all the Progams inside Simple Programs Folder else your PR won't be accepted and file should only be .c```
 You can go through <a href="https://github.com/Bibekdhkl/C-Programs/blob/main/contributing.md">contibuting.md</a> to get the full guide for contributing in this repo.
 <h5><a href="https://hacktoberfest.digitalocean.com/">Check your current hacktoberfest progress</a></h5>
 <h3>Learning resources</h3>
