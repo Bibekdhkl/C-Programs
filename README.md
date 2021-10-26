@@ -1,8 +1,11 @@
 # C-Programs Examples
 This repo is the collection of C programming problems that I practiced on different platforms.
 
+
 <h2>Hacktoberfest 2021</h2>
 <p> Want to complete four PRs for Hacktoberbest-2021. Send a PR of your C Program.</p>
+
+You can go through <a href="/home/bibekdhkl/Documents/Programming/C program/contributing.md">contibuting.md</a> to get the full guide for contributing in this repo.
 <h5><a href="https://hacktoberfest.digitalocean.com/">Check your current hacktoberfest progress</a></h5>
 <h3>Learning resources</h3>
 <h5><a href="https://try.github.io">Learn Git basics.</a></h5>
